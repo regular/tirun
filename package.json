@@ -1,0 +1,19 @@
+{
+  "name": "tirun",
+  "version": "1.0.0",
+  "description": "Run firmware images on SimpleLink devices",
+  "bin": {
+    "tirun": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "dslite-client": "github:regular/dslite-client",
+    "dslite-proxy": "github:regular/dslite-proxy",
+    "rc": "^1.2.8"
+  }
+}
